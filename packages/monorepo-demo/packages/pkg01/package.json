@@ -1,0 +1,32 @@
+{
+  "name": "pkg01",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "wangxiaoshylion <wangxiaoshylion@gmail.com>",
+  "homepage": "https://github.com/wangxiaoshylion/2022#readme",
+  "license": "ISC",
+  "main": "lib/pkg01.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxiaoshylion/2022.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/pkg01.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/wangxiaoshylion/2022/issues"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-typescript"] // 一些babel预设插件 "@babel/preset-typescript"
+}

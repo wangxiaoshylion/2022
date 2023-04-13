@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-component": "^1.1.1"
+    "@firesoon/wx": "^1.0.1",
+    "babel-core": "^6.26.3",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-env": "^1.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
@@ -12,7 +15,7 @@
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node index.js"
   },
   "keywords": [],
   "author": "",
